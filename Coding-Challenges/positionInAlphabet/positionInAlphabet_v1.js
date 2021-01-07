@@ -4,7 +4,8 @@ TASK:
 Given a letter, return its position in the alphabet.
 For example, given `'a'`, return `1`. Given `'Y'` return `25`.
 
-SOLUTION
+MY v1 SOLUTION //////////////////////////////////
+
 It's all about charCodes...
 
 Reference ASCII Table: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
@@ -17,16 +18,19 @@ Where a = 97 ~ z = 122,
 */
 
 function positionInAlphabet(letter) {
+    if (typeof letter !== 'string' || letter.length > 1) return null;
     return [letter, letter.toLowerCase().charCodeAt(0) - 96].join(' ');
 }
 
 
+// TEST DATA 
+
 // console.log(positionInAlphabet('Y'));
 
-const dataSet = ['a', 'y', 'Y', 'Z'];
+const dataSet = ['a', 'y', 'Y', 'Z', 'tg', 4];
 
 dataSet.map(letter => {
-    console.log(positionInAlphabet(letter))
+    console.log(positionInAlphabet(letter));
 })
 
 
