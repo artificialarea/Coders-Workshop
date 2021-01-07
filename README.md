@@ -19,8 +19,19 @@ Bootcampers Collective is working to migrate events online! Check out [Bootcampe
 Algorithms: Junior.
 
 ### Challenges
+
+_Personal Note: my solutions can be found in [**/Contributors/SachaSed**](https://github.com/BootcampersCollective/Coders-Workshop/tree/master/Contributors/SachaSed), while bry-an's solutions can be found in [**/Contributors/TheMob**](https://github.com/BootcampersCollective/Coders-Workshop/tree/master/Contributors/TheMob)_
+
   
-[Position in Alphabet](https://github.com/BootcampersCollective/Coders-Workshop/tree/master/Coding-Challenges/positionInAlphabet)  
+#### [Position in Alphabet](https://github.com/BootcampersCollective/Coders-Workshop/tree/master/Coding-Challenges/positionInAlphabet)  
+
+_Personal Notes:_
+**bry-an' v2 solution** had Node.js **Assertion testing**, which I had never come across before outside of using it within a testing library like Chai's assertion library
+* https://nodejs.org/api/assert.html
+* https://nodejs.org/api/assert.html#assert_assert_strictequal_actual_expected_message
+
+
+--
 
 [Extract Product ID from URL](https://github.com/BootcampersCollective/Coders-Workshop/tree/master/Coding-Challenges/extractProductIDFromUrl)  
 
